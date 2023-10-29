@@ -1,12 +1,16 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Love+Ya+Like+A+Sister&display=swap');
 /* General styles */
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: 'architects daughter';
 }
 /* Header */
 header {
     background-color: red;
+    font-family: 'love ya like a sister';
 }
 /* Main */
 main {
