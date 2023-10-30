@@ -8,7 +8,6 @@
     box-sizing: border-box;
     color: black;
 }
-
 /* General styles */
 body {
     display: flex;
@@ -63,7 +62,7 @@ nav {
     display: none;
     width: 100%;
     left: 60;
-    padding: 0 2rem;
+    padding: 0 1rem;
     top: 100%;
 
 }
@@ -95,7 +94,7 @@ footer {
     /* Header */
     nav {
         display: block;
-        box-shadow: none;
+        box-shadow: 0 4px 3px;
         position: relative;
         width: fit-content;
         padding-right: 1rem;
@@ -128,5 +127,8 @@ footer {
 @media screen and (min-width:992px) {
     #menu a:hover {
         border-bottom: 1px solid black;
+    }
+    nav {
+        box-shadow: 0 4px 3px;
     }
 }
