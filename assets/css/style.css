@@ -19,8 +19,8 @@ body {
 
 /* Header */
 header {
-    background-color: #ffce99;
-    position:fixed;
+    background-color:orange;
+    position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 4px 3px #d9d9d9;
@@ -45,17 +45,23 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1rem;
 }
 
 .position {
-    border-bottom: 1px solid 
+    border-bottom: 1px solid
+}
+
+/* Dropdown toggle with nav */
+nav {
+    position: absolute;
+    background-color: orange;
 }
 
 /* Main */
 main {
-    background-color: blue;
+    background-color:rosybrown;
     flex: 1 0 auto;
 }
 
