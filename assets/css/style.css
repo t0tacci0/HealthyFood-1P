@@ -70,6 +70,10 @@ nav {
     display: block;
 }
 
+#window {
+    display: none;
+}
+
 /* Main */
 main {
     background-color:rosybrown;
