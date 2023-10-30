@@ -106,3 +106,14 @@ footer {
 .window-label {
     display:none;
 }
+
+#logo {
+    font-size: 200%;
+    line-height: 80px;
+    margin: 0 7rem;
+}
+
+main {
+    margin-top: 85px;
+}
+}
