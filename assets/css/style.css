@@ -25,7 +25,8 @@ header {
     width: 100%;
     box-shadow: 0 4px 3px #d9d9d9;
     padding: 0 1rem;
-
+    align-items: baseline;
+    display: flex;
 }
 
 header a {
