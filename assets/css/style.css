@@ -84,3 +84,25 @@ main {
 footer {
     background-color: green;
 }
+
+/* Media query for 768px and up */
+@media screen and (min-width:768px) {
+    /* Header */
+    nav {
+        display:block;
+        box-shadow: none;
+        position:relative;
+        width: fit-content;
+        padding-right: 1rem;      
+}
+
+#menu {
+    display:flex;
+}
+#menu > li {
+    padding-left: 1rem;
+}
+
+.window-label {
+    display:none;
+}
