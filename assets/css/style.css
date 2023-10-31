@@ -140,5 +140,6 @@ footer {
     header {
         text-align: center;
         padding-left: 10rem;
+        overflow: auto;
     }
 }
