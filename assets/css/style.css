@@ -85,8 +85,11 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: green;
+#social-link {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
 }
 
 /* Media query for 768px and up */
