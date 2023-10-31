@@ -22,7 +22,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 140%;
-    box-shadow: 0 4px 3px #d9d9d9;
+    box-shadow: 0 4px 3px black;
     padding: 0 1rem;
     align-items: baseline;
     display: flex;
@@ -62,7 +62,7 @@ nav {
     display: none;
     width: 100%;
     left: 60;
-    padding: 0 1rem;
+    padding: 0 2rem;
     top: 100%;
 
 }
@@ -80,7 +80,7 @@ nav {
 main {
     background-color: rosybrown;
     flex: 1 0 auto;
-    margin-top: 85px;
+    margin-top: 80px;
 }
 
 /* Footer */
@@ -94,10 +94,11 @@ footer {
     /* Header */
     nav {
         display: block;
-        box-shadow: 0 4px 3px;
+        box-shadow:0 2px 2px 2px;
         position: relative;
         width: fit-content;
-        padding-right: 1rem;
+        padding-right: 1.5rem;
+        padding-left: 1rem;
     }
 
     #menu {
@@ -119,7 +120,7 @@ footer {
     }
 
     main {
-        margin-top: 180px;
+        margin-top: 80px;
     }
 }
 
@@ -129,6 +130,13 @@ footer {
         border-bottom: 1px solid black;
     }
     nav {
-        box-shadow: 0 4px 3px;
+        box-shadow: 0 2px 2px 2px;
+        padding-left: 1rem;
+        padding-right: 2rem;
+    }
+
+    header {
+        text-align: center;
+        padding-left: 10rem;
     }
 }
