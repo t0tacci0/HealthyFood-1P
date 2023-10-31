@@ -8,6 +8,7 @@
     box-sizing: border-box;
     color: black;
 }
+
 /* General styles */
 body {
     display: flex;
@@ -37,7 +38,7 @@ h1 {
     font-family: 'love ya like a sister', sans-serif;
     color: black;
     letter-spacing: 3px;
-    text-align:center;
+    text-align: center;
     line-height: 80px;
 }
 
@@ -94,7 +95,7 @@ footer {
     /* Header */
     nav {
         display: block;
-        box-shadow:0 2px 2px 2px;
+        box-shadow: 0 2px 2px 2px;
         position: relative;
         width: fit-content;
         padding-right: 1.5rem;
@@ -129,6 +130,7 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid black;
     }
+
     nav {
         box-shadow: 0 2px 2px 2px;
         padding-left: 1rem;
