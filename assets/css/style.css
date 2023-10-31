@@ -46,6 +46,9 @@ h1 {
     font-size: 110%;
     letter-spacing: 2px;
     list-style-type: none;
+    text-align: center;
+    padding-left: 3rem;
+    padding-top: 0.5rem;
 }
 
 #menu>li {
@@ -59,13 +62,11 @@ h1 {
 /* Dropdown toggle with nav */
 nav {
     position: absolute;
-    background-color: orange;
     display: none;
     width: 100%;
     left: 60;
     padding: 0 2rem;
     top: 100%;
-
 }
 
 /* Toggle */
@@ -103,19 +104,20 @@ main {
     /* Header */
     nav {
         display: block;
-        box-shadow: 0 2px 2px 2px;
+        box-shadow: 0 2px 5px 2px;
         position: relative;
         width: fit-content;
-        padding-right: 1.5rem;
+        padding-right: 1rem;
         padding-left: 1rem;
     }
 
     #menu {
         display: flex;
+        padding-left: 1rem;
     }
 
     #menu>li {
-        padding-left: 1rem;
+        padding-right: 2rem;
     }
 
     .window-label {
@@ -125,7 +127,7 @@ main {
     #logo {
         font-size: 200%;
         line-height: 80px;
-        margin: 0 7rem;
+        margin: 0 5rem;
     }
 
     main {
@@ -140,7 +142,7 @@ main {
     }
 
     nav {
-        box-shadow: 0 2px 2px 2px;
+        box-shadow: 0 2px 5px 2px;
         padding-left: 1rem;
         padding-right: 2rem;
     }
@@ -149,5 +151,8 @@ main {
         text-align: center;
         padding-left: 10rem;
         overflow: auto;
+    }
+    #logo {
+        padding-right: 30rem;
     }
 }
