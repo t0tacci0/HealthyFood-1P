@@ -37,9 +37,10 @@ header a {
 h1 {
     font-family: 'love ya like a sister', sans-serif;
     color: black;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     text-align: center;
     line-height: 80px;
+    padding-right: 1.5rem;
 }
 
 #menu {
