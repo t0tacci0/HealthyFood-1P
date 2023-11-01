@@ -81,9 +81,15 @@ nav {
 
 /* Main */
 main {
-    background-color: rosybrown;
     flex: 1 0 auto;
     margin-top: 80px;
+}
+
+/* Home image */
+#foodheart {
+    height: 700px;
+    width: 100%;
+    background: url(../images/heart.webp) no-repeat center/cover;
 }
 
 /* Footer */
