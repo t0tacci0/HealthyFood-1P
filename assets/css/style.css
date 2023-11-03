@@ -19,7 +19,7 @@ body {
 
 /* Header */
 header {
-    background-color: orange;
+    background-color: white;
     position: fixed;
     z-index: 99;
     width: 140%;
