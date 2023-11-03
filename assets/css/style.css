@@ -105,6 +105,10 @@ main {
     font-size: 250%;
 }
 
+p {
+    font-size: medium;
+}
+
 /* Media query for 768px and up */
 @media screen and (min-width:768px) {
 
@@ -139,6 +143,11 @@ main {
 
     main {
         margin-top: 80px;
+    }
+
+    /* Footer */
+    p {
+        font-size: x-large;
     }
 }
 
