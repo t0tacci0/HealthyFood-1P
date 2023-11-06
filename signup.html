@@ -1,104 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Meta tags for search engine-->
-    <meta
-      name="description"
-      content="Buying healthy food at shops.Cooking and eating at home with healthy ingredients.Choosing best food for better life"
-    />
-    <meta
-      name="keywords"
-      content="Cooking,healthy food,healthy life,sport,food at home,best ingredients"
-    />
+    <meta name="description"
+        content="Buying healthy food at shops.Cooking and eating at home with healthy ingredients.Choosing best food for better life">
+    <meta name="keywords" content="Cooking,healthy food,healthy life,sport,food at home,best ingredients">
     <!--Title-->
     <title>Healthy food</title>
     <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon_io/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicon_io/favicon-16x16.png"
-    />
-    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <!--Stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
 
-  <body>
+<body>
     <!--Header-->
     <header>
-      <a href="index.html">
-        <h1 id="logo">Logo</h1>
-      </a>
-      <input type="checkbox" id="window" name="window" />
-      <label for="window" class="window-label"
-        ><i
-          class="fa-solid fa-bars-staggered fa-flip-horizontal"
-          style="color: #000000"
-        ></i
-      ></label>
-      <nav>
-        <ul id="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="signup.html" class="position">Sign Up</a></li>
-        </ul>
-      </nav>
+        <div>
+            <a href="index.html"><img src="assets/images/Organic Vegetables.png" alt="Healthy food"></a>
+        </div>
+        <input type="checkbox" id="window" name="window">
+        <label for="window" class="window-label"><i class="fa-solid fa-bars-staggered fa-flip-horizontal"
+                style="color: #000000;"></i></label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="signup.html" class="position">Sign Up</a></li>
+            </ul>
+        </nav>
     </header>
     <!--Main content-->
-    <main>MAIN SECTION</main>
+    <main>
+        <section id="signup">
+            <form id="signup-form" action="https://formdump.codeinstitute.net" method="post">
+                <h2><i class="fa-solid fa-seedling fa-lg"></i>Register to find out how to improve your eating lifestyle!</h2>
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name" class="text" required>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name" class="text" required>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="text" id="email_address" name="email_address" class="text" required>
+                <br>
+                <div class="radio">
+                    <div>
+                        <label for="organic">Organic</label>
+                        <input type="radio" id="organic" value="organic" name="Organic Food">
+                    </div>
+                    <div>
+                        <label for="free_from">Trail</label>
+                        <input type="radio" id="free_from" value="free_from" name="Free From Food">
+                    </div>
+                    <div>
+                        <label for="vegan">Both</label>
+                        <input type="radio" id="vegan" value="vegan" name="Vegan Food">
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Join Our Newsletter</button>
+            </form>
+        </section>
+    </main>
     <!--Foot-->
     <footer>
-      <ul id="social-link">
-        <p>Follow Us...</p>
-        <li>
-          <a href="https://en-gb.facebook.com/" target=" _blank" rel="noopener"
-            ><i
-              class="fa-brands fa-facebook-f fa-bounce fa-lg"
-              style="color: #000000"
-            ></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/" target=" _blank" rel="noopener"
-            ><i
-              class="fa-brands fa-instagram fa-beat fa-lg"
-              style="color: #000000"
-            ></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/" target=" _blank" rel="noopener"
-            ><i
-              class="fa-brands fa-x-twitter fa-fade fa-lg"
-              style="color: #000000"
-            ></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/" target=" _blank" rel="noopener"
-            ><i
-              class="fa-brands fa-youtube fa-beat-fade fa-lg"
-              style="color: #000000"
-            ></i
-          ></a>
-        </li>
-      </ul>
+        <ul id="social-link">
+            <p>Follow Us...</p>
+            <li><a href="https://en-gb.facebook.com/" target=" _blank" rel="noopener"><i
+                        class="fa-brands fa-facebook-f fa-bounce fa-lg" style="color: #000000;"></i></a></li>
+            <li><a href="https://www.instagram.com/" target=" _blank" rel="noopener"><i
+                        class="fa-brands fa-instagram fa-beat fa-lg" style="color: #000000;"></i></a></li>
+            <li><a href="https://twitter.com/" target=" _blank" rel="noopener"><i
+                        class="fa-brands fa-x-twitter fa-fade fa-lg" style="color: #000000;"></i></a></li>
+            <li><a href="https://www.youtube.com/" target=" _blank" rel="noopener"><i
+                        class="fa-brands fa-youtube fa-beat-fade fa-lg" style="color: #000000;"></i></a></li>
+        </ul>
     </footer>
     <!--Font awesome kit-->
-    <script
-      src="https://kit.fontawesome.com/e8d060d260.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://kit.fontawesome.com/e8d060d260.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
