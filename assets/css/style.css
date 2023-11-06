@@ -19,29 +19,26 @@ body {
 
 /* Header */
 header {
-    background-color: white;
+    background-color: #ffffff;
+     padding: 0 1rem;
     position: fixed;
-    width: 80%;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
-}
+    justify-content: space-between;
+    align-items: baseline;
 
 header a {
     text-decoration: none;
+    color: inherit;
 
-}
-
-img {
-    max-width: 90%;
-    padding-left: 80%;
 }
 
 h1 {
     font-family: 'love ya like a sister', sans-serif;
     color: black;
     letter-spacing: 1px;
-    text-align: center;
-    line-height: 80px;
-    padding-right: 1.5rem;
 }
 
 #menu {
@@ -49,7 +46,6 @@ h1 {
     letter-spacing: 1px;
     list-style-type: none;
     text-align: center;
-    padding-left: 10rem;
 }
 
 #menu>li {
@@ -57,16 +53,19 @@ h1 {
 }
 
 .position {
-    border-bottom: 1px solid
+    border-bottom: 1px solid black;
 }
 
 /* Dropdown toggle with nav */
 nav {
     position: absolute;
+    background-color: blue;
     display: none;
     width: 100%;
-    left: 20%;
-    top: 30%;
+    left: 0;
+    top: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    padding: 0 1rem;
 }
 
 /* Toggle */
@@ -79,15 +78,13 @@ nav {
 }
 
 .window-label {
-    padding-left: 1rem;
-    padding-top: 1rem;
     font-size: medium;
 }
 
 /* Main */
 main {
     flex: 1 0 auto;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 /* Footer */
