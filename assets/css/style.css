@@ -24,6 +24,7 @@ header {
     z-index: 99;
     width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -33,20 +34,24 @@ header a {
 }
 
 div>a>img {
-    max-width: 70%;
+    max-width: 100%;
     padding-top: 0;
 }
 
 #menu {
-    font-size: 100%;
-    letter-spacing: 1px;
-    list-style-type: none;
-    text-align: center;
-    padding-left: 10rem;
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-size: 100%;
+        z-index: 1;
+        align-items:center;
 }
 
 #menu>li {
-    margin-bottom: 1rem;
+    padding-right: 1.5rem;
+    text-align: center;
 }
 
 .position {
@@ -76,7 +81,7 @@ nav {
 .window-label {
     padding-top: 2rem;
     padding-right: 2rem;
-    justify-content: center;
+    font-size: xx-large;
 }
     
 /* Main */
