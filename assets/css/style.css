@@ -23,9 +23,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 140%;
-    box-shadow: 0 4px 3px black;
     padding: 0 1rem;
-    align-items: baseline;
     display: flex;
 }
 
@@ -48,8 +46,7 @@ h1 {
     letter-spacing: 2px;
     list-style-type: none;
     text-align: center;
-    padding-left: 3rem;
-    padding-top: 0.5rem;
+    padding-left: 1rem;
 }
 
 #menu>li {
@@ -77,6 +74,12 @@ nav {
 
 #window {
     display: none;
+}
+
+.window-label {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    font-size: xx-large;
 }
 
 /* Main */
