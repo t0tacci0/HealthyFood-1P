@@ -34,8 +34,9 @@ header a {
 }
 
 div>a>img {
-    max-width: 100%;
+    max-width: 90%;
     padding-top: 0;
+    padding-right: 1.5rem;
 }
 
 #menu {
@@ -81,14 +82,14 @@ nav {
 .window-label {
     padding-top: 2rem;
     padding-right: 2rem;
-    font-size: xx-large;
+    font-size: x-large;
 }
     
 /* Main */
 main {
     background-color: white;
     flex: 1 0 auto;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 /* Footer */
