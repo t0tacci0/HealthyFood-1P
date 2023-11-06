@@ -33,7 +33,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-
 }
 
 h1 {
@@ -82,7 +81,7 @@ nav {
     font-size: large;
     padding-right: 2rem;
 }
-
+    
 /* Main */
 main {
     background-color: white;
@@ -157,8 +156,8 @@ p {
     }
 }
 
-/* Media query for 992px and up */
-@media screen and (min-width:992px) {
+/* Media query for 1050px and up */
+@media screen and (min-width:1050px) {
 
     /* Header */
     #menu a:hover {
