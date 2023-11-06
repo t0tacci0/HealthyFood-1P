@@ -22,14 +22,18 @@ header {
     background-color: white;
     position: fixed;
     z-index: 99;
-    width: 140%;
-    padding: 0 1rem;
+    width: 80%;
     display: flex;
 }
 
 header a {
     text-decoration: none;
 
+}
+
+img {
+    max-width: 110%;
+    padding-left: 0%;
 }
 
 h1 {
@@ -42,11 +46,11 @@ h1 {
 }
 
 #menu {
-    font-size: 110%;
-    letter-spacing: 2px;
+    font-size: 60%;
+    letter-spacing: 1px;
     list-style-type: none;
     text-align: center;
-    padding-left: 1rem;
+    padding-left: 10rem;
 }
 
 #menu>li {
@@ -62,9 +66,8 @@ nav {
     position: absolute;
     display: none;
     width: 100%;
-    left: 60;
-    padding: 0 2rem;
-    top: 100%;
+    left: 20%;
+    top: 30%;
 }
 
 /* Toggle */
@@ -77,9 +80,9 @@ nav {
 }
 
 .window-label {
-    padding-left: 2rem;
-    padding-top: 2rem;
-    font-size: xx-large;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-size: medium;
 }
 
 /* Main */
@@ -98,7 +101,7 @@ main {
 }
 
 #social-link i {
-    font-size: 250%;
+    font-size: 100%;
 }
 
 p {
@@ -156,8 +159,8 @@ p {
 
     nav {
         box-shadow: 0 2px 5px 2px;
-        padding-left: 1rem;
-        padding-right: 1px;
+        padding-left: 0;
+        padding-right: 5px;
     }
 
     header {
@@ -167,5 +170,9 @@ p {
     }
     #logo {
         padding-right: 32rem;
+    }
+
+    #menu {
+        padding-right: 6rem;
     }
 }
