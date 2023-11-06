@@ -22,7 +22,7 @@ header {
     background-color: white;
     position: fixed;
     z-index: 99;
-    width: 80%;
+    width: 89%;
     display: flex;
 }
 
@@ -32,7 +32,7 @@ header a {
 }
 
 img {
-    max-width: 110%;
+    max-width: 90%;
     padding-left: 0%;
 }
 
@@ -50,7 +50,7 @@ h1 {
     letter-spacing: 1px;
     list-style-type: none;
     text-align: center;
-    padding-left: 10rem;
+    padding-left: 8.5rem;
 }
 
 #menu>li {
@@ -123,8 +123,8 @@ p {
 
     #menu {
         display: flex;
-        padding-left: 1rem;
-        padding-top: 
+        padding-left: 0;
+        padding-right: 1rem;
     }
 
     #menu>li {
