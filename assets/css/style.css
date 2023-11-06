@@ -20,14 +20,11 @@ body {
 /* Header */
 header {
     background-color: white;
-     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 4px 4px #3a3a3a;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
 }
 
 header a {
@@ -35,10 +32,9 @@ header a {
     color: inherit;
 }
 
-h1 {
-    font-family: 'love ya like a sister', sans-serif;
-    color: black;
-    letter-spacing: 1px;
+div>a>img {
+    max-width: 70%;
+    padding-top: 0;
 }
 
 #menu {
@@ -78,8 +74,9 @@ nav {
 }
 
 .window-label {
-    font-size: large;
+    padding-top: 2rem;
     padding-right: 2rem;
+    justify-content: center;
 }
     
 /* Main */
