@@ -34,24 +34,24 @@ header a {
 }
 
 div>a>img {
-    max-width: 90%;
+    max-width: 120%;
     padding-top: 0;
-    padding-right: 1.5rem;
+    padding-right: 3rem;
 }
 
 #menu {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         list-style-type: none;
         margin: 0;
         padding: 0;
-        font-size: 100%;
+        font-size: 130%;
         z-index: 1;
         align-items:center;
 }
 
 #menu>li {
-    padding-right: 1.5rem;
+    padding-bottom: 1rem;
     text-align: center;
 }
 
@@ -62,12 +62,11 @@ div>a>img {
 /* Dropdown window with nav */
 nav {
     position: absolute;
-    background-color: white;
     display: none;
     width: 100%;
     left: 0;
-    top: 100%;
-    padding: 0 1rem;
+    top: 50%;
+    padding-left: 12rem;
 }
 
 /* Window */
