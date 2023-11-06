@@ -19,15 +19,16 @@ body {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: white;
      padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 4px 4px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+}
 
 header a {
     text-decoration: none;
@@ -42,10 +43,11 @@ h1 {
 }
 
 #menu {
-    font-size: 60%;
+    font-size: 100%;
     letter-spacing: 1px;
     list-style-type: none;
     text-align: center;
+    padding-left: 10rem;
 }
 
 #menu>li {
@@ -56,19 +58,18 @@ h1 {
     border-bottom: 1px solid black;
 }
 
-/* Dropdown toggle with nav */
+/* Dropdown window with nav */
 nav {
     position: absolute;
-    background-color: blue;
+    background-color: white;
     display: none;
     width: 100%;
     left: 0;
     top: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
     padding: 0 1rem;
 }
 
-/* Toggle */
+/* Window */
 #window:checked~nav {
     display: block;
 }
@@ -78,11 +79,13 @@ nav {
 }
 
 .window-label {
-    font-size: medium;
+    font-size: large;
+    padding-right: 2rem;
 }
 
 /* Main */
 main {
+    background-color: white;
     flex: 1 0 auto;
     margin-top: 40px;
 }
@@ -110,6 +113,10 @@ p {
 @media screen and (min-width:768px) {
 
     /* Header */
+    header {
+        box-shadow: 0 4px 4px #3a3a3a;
+    }
+
     nav {
         display: block;
         box-shadow: 0 2px 5px 2px;
@@ -117,16 +124,17 @@ p {
         width: fit-content;
         padding-right: 0rem;
         padding-left: 1rem;
+        padding-top: 0.5rem;
     }
 
     #menu {
         display: flex;
-        padding-left: 0;
+        padding-left: 1rem;
         padding-right: 1rem;
     }
 
     #menu>li {
-        padding-right: 2rem;
+        padding-right: 1rem;
     }
 
     .window-label {
@@ -138,7 +146,7 @@ p {
         line-height: 80px;
         margin: 0 3rem;
     }
-
+    /* Main */
     main {
         margin-top: 80px;
     }
@@ -151,6 +159,8 @@ p {
 
 /* Media query for 992px and up */
 @media screen and (min-width:992px) {
+
+    /* Header */
     #menu a:hover {
         border-bottom: 1px solid black;
     }
@@ -165,12 +175,16 @@ p {
         text-align: center;
         padding-left: 10rem;
         overflow: auto;
+        box-shadow: 0 4px 4px #3a3a3a;
     }
+
     #logo {
         padding-right: 32rem;
     }
 
     #menu {
-        padding-right: 6rem;
+        padding-right: 1rem;
+        padding-left: 2rem;
+        padding-top: 0.5rem;
     }
 }
