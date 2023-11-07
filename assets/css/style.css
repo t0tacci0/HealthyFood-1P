@@ -44,13 +44,12 @@ div>a>img {
         list-style-type: none;
         margin: 0;
         padding: 0;
-        font-size: 130%;
+        font-size: 115%;
         z-index: 1;
         align-items:center;
 }
 
 #menu>li {
-    padding-bottom: 5px;
     text-align: center;
     color: white;
 }
@@ -98,7 +97,7 @@ main {
     background-size: cover;
     background-position: 20%;
     flex-grow: 1;
-    padding: 9rem 0 0 0;
+    padding: 7rem 0 0 0;
 
 }
 
@@ -107,17 +106,27 @@ main {
     background-color: rgba(60, 60, 60, 0.6);
 }
 
+label,input {
+    display: block;
+}
+
+label {
+    color: white;
+    text-align: center;
+}
+
 #signup-form>h2 {
     color: whitesmoke;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     text-align: center;
+    font-size: medium;
 }
 
 .text {
     background: transparent;
-    width: 50%;
+    width: 100%;
     color: #fafafa;
-    margin: 1px 0 1px 0;
+    margin: 1px 1px -20px 0;
     border: 1px solid #fafafa;
     border-radius: 9px;
     padding: 1px 7px;
@@ -126,16 +135,19 @@ main {
 .radio {
     width: 100%;
     display: flex;
+    justify-content: space-between;
+    
+
 }
 
 .join-button {
     border-radius: 2px;
     padding: 5px 5px;
     font-size: 70%;
-    background-color: green;
-    color: #fafafa;
+    background-color: #3cb371;
+    color: black;
     position: absolute;
-    margin: 0 15%;
+    margin: 5px 17%;
 }
 
 /* Footer */
