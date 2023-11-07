@@ -19,7 +19,6 @@ body {
 
 /* Header */
 header {
-    background-color: white;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -34,7 +33,7 @@ header a {
 }
 
 div>a>img {
-    max-width: 120%;
+    max-width: 90%;
     padding-top: 0;
     padding-right: 3rem;
 }
@@ -51,8 +50,9 @@ div>a>img {
 }
 
 #menu>li {
-    padding-bottom: 1rem;
+    padding-bottom: 5px;
     text-align: center;
+    color: white;
 }
 
 .position {
@@ -82,12 +82,13 @@ nav {
     padding-top: 2rem;
     padding-right: 2rem;
     font-size: x-large;
+    color: white;
 }
     
 /* Main */
 main {
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
 }
@@ -95,19 +96,19 @@ main {
 #signup {
     background-image: url("../images/Form\ \ background.jpg");
     background-size: cover;
-    background-position: 100%;
+    background-position: 20%;
     flex-grow: 1;
-    padding: 12rem 0 0 0;
+    padding: 9rem 0 0 0;
 
 }
 
 #signup-form {
-    padding: 30px;
+    padding: 2rem;
     background-color: rgba(60, 60, 60, 0.6);
 }
 
 #signup-form>h2 {
-    color: #fafafa;
+    color: whitesmoke;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -116,10 +117,20 @@ main {
     background: transparent;
     width: 50%;
     color: #fafafa;
-    margin: 5px 0 20px 0;
+    margin: 1px 0 1px 0;
     border: 1px solid #fafafa;
-    border-radius: 2px;
+    border-radius: 9px;
     padding: 1px 7px;
+}
+
+.radio {
+    width: 100%;
+    display: flex;
+}
+
+#join-button {
+    margin-top: 20px;
+    border-radius: 2px;
 }
 
 /* Footer */
