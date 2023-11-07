@@ -150,6 +150,9 @@ label {
 }
 
 /* Footer */
+footer {
+    background-color: #3cb371;
+}
 #social-link {
     text-align: center;
     padding: 20px 0;
@@ -200,6 +203,27 @@ p {
     /* Main */
     main {
         margin-top: 0;
+    }
+
+    /* Form */
+    #signup {
+        padding: 14rem 0 0 0;
+    }
+
+    #signup-form {
+        padding: 12rem;
+    }
+
+    #signup-form>h2 {
+        font-size: xx-large;
+    }
+
+    label {
+        font-size: x-large;
+    }
+
+    .join-button {
+        font-size: 100%;
     }
 
     /* Footer */
