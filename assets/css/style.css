@@ -35,16 +35,16 @@ header a {
 div>a>img {
     max-width: 90%;
     padding-top: 0;
-    padding-right: 3rem;
+    padding-right: 1rem;
 }
 
 #menu {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         list-style-type: none;
         margin: 0;
         padding: 0;
-        font-size: 115%;
+        font-size: 100%;
         z-index: 1;
         align-items:center;
 }
@@ -52,6 +52,7 @@ div>a>img {
 #menu>li {
     text-align: center;
     color: white;
+    padding-left: 5px;
 }
 
 .position {
@@ -65,7 +66,7 @@ nav {
     width: 100%;
     left: 0;
     top: 40%;
-    padding-left: 12rem;
+    padding-left: 7rem;
 }
 
 /* Window */
@@ -78,8 +79,8 @@ nav {
 }
 
 .window-label {
-    padding-top: 2rem;
-    padding-right: 2rem;
+    padding-top: 5px;
+    padding-right: 9rem;
     font-size: x-large;
     color: white;
 }
@@ -135,9 +136,8 @@ label {
 .radio {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    
-
+    flex-direction: row;
+    justify-content: space-between;  
 }
 
 .join-button {
@@ -147,7 +147,7 @@ label {
     background-color: #3cb371;
     color: black;
     position: absolute;
-    margin: 5px 17%;
+    margin: 1.5rem 17%;
 }
 
 /* Footer */
