@@ -82,7 +82,6 @@ nav {
     padding-top: 5px;
     padding-right: 9rem;
     font-size: x-large;
-    color: white;
 }
     
 /* Main */
@@ -173,42 +172,34 @@ p {
 @media screen and (min-width:768px) {
 
     /* Header */
-    header {
-        box-shadow: 0 4px 4px #3a3a3a;
+    div>a>img {
+        max-width: 140%;
+        padding-top: 0;
+        padding-right: 1rem;
     }
 
     nav {
         display: block;
         box-shadow: 0 2px 5px 2px;
         position: relative;
-        width: fit-content;
-        padding-right: 0rem;
-        padding-left: 1rem;
-        padding-top: 0.5rem;
+        padding-right: 1px;
+        padding-top: 1rem;
+        color: #3cb371;
+        align-items: baseline;
     }
 
     #menu {
         display: flex;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        font-size: 100%;
     }
 
     #menu>li {
-        padding-right: 1rem;
+        padding-right: 4rem;
     }
 
-    .window-label {
-        display: none;
-    }
-
-    #logo {
-        font-size: 200%;
-        line-height: 80px;
-        margin: 0 3rem;
-    }
     /* Main */
     main {
-        margin-top: 80px;
+        margin-top: 0;
     }
 
     /* Footer */
@@ -236,10 +227,6 @@ p {
         padding-left: 10rem;
         overflow: auto;
         box-shadow: 0 4px 4px #3a3a3a;
-    }
-
-    #logo {
-        padding-right: 32rem;
     }
 
     #menu {
