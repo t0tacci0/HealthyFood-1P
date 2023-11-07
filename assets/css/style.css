@@ -95,10 +95,31 @@ main {
 #signup {
     background-image: url("../images/Form\ \ background.jpg");
     background-size: cover;
-    background-position: 75%;
+    background-position: 100%;
     flex-grow: 1;
-    padding: 20px 10% 0 10%;;
+    padding: 12rem 0 0 0;
 
+}
+
+#signup-form {
+    padding: 30px;
+    background-color: rgba(60, 60, 60, 0.6);
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text {
+    background: transparent;
+    width: 50%;
+    color: #fafafa;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 1px 7px;
 }
 
 /* Footer */
