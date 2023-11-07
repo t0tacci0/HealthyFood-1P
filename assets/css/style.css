@@ -86,14 +86,22 @@ nav {
     
 /* Main */
 main {
-    background-color: white;
-    flex: 1 1 auto;
-    margin-top: 230px;
+    flex: 1 0 auto;
+    margin-top: 47px;
     display: flex;
     flex-direction: column;
 }
+/* Form */
+#signup {
+    background-image: url("../images/Form\ \ background.jpg");
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;;
 
+}
 
+/* Footer */
 #social-link {
     text-align: center;
     padding: 20px 0;
