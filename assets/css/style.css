@@ -149,6 +149,15 @@ label {
     margin: 1.5rem 17%;
 }
 
+/* Gallery images */
+#foodgallery img {
+    width: 100%;
+}
+
+#foodgallery {
+    line-height: 0;
+}
+
 /* Footer */
 footer {
     background-color: #3cb371;
@@ -176,19 +185,24 @@ p {
 
     /* Header */
     div>a>img {
-        max-width: 140%;
+        max-width: 50%;
         padding-top: 0;
         padding-right: 1rem;
     }
 
     nav {
-        display: block;
-        box-shadow: 0 2px 5px 2px;
         position: relative;
         padding-right: 1px;
         padding-top: 1rem;
         color: #3cb371;
         align-items: baseline;
+        padding-left: 4rem;
+    }
+
+    .window-label{
+        padding-top: 4rem;
+        padding-left: 19rem;
+        position: absolute;
     }
 
     #menu {
@@ -211,7 +225,7 @@ p {
     }
 
     #signup-form {
-        padding: 12rem;
+        padding: 8rem;
     }
 
     #signup-form>h2 {
@@ -222,8 +236,18 @@ p {
         font-size: x-large;
     }
 
+    .text:hover {
+        border-color: #3cb371;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+
     .join-button {
         font-size: 100%;
+        margin: 1.5rem 25%;
     }
 
     /* Footer */
