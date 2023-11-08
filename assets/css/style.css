@@ -91,6 +91,13 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+/* First picture in homepage */
+#foodhome {
+    height: 225px;
+    width: 100%;
+    background: url(../images/heart.jpg) no-repeat center center/cover;
+}
 /* Form */
 #signup {
     background-image: url("../images/Form\ \ background.jpg");
