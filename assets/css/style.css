@@ -43,7 +43,7 @@ div>a>img {
         flex-direction: row;
         list-style-type: none;
         margin: 0;
-        padding: 0;
+        padding-right: 5rem;
         font-size: 100%;
         z-index: 1;
         align-items:center;
@@ -52,7 +52,7 @@ div>a>img {
 #menu>li {
     text-align: center;
     color: white;
-    padding-left: 5px;
+    padding-right: 1.5rem;
 }
 
 .position {
@@ -66,7 +66,7 @@ nav {
     width: 100%;
     left: 0;
     top: 40%;
-    padding-left: 7rem;
+    padding-left: 6rem;
 }
 
 /* Window */
@@ -203,27 +203,29 @@ p {
     div>a>img {
         max-width: 50%;
         padding-top: 0;
-        padding-right: 1rem;
+        padding-right: 6rem;
     }
 
     nav {
-        position: relative;
-        padding-right: 1px;
-        padding-top: 1rem;
+        position: absolute;
+        padding-right: 6rem;
+        padding-top: 0;
         color: #3cb371;
         align-items: baseline;
-        padding-left: 4rem;
+        padding-left: 15rem;
     }
 
     .window-label{
-        padding-top: 4rem;
+        padding-top: 2rem;
         padding-left: 19rem;
         position: absolute;
+        font-size: 300%;
     }
 
     #menu {
         display: flex;
-        font-size: 100%;
+        font-size: 250%;
+        padding-right: 1rem;
     }
 
     #menu>li {
