@@ -152,6 +152,7 @@ label {
 /* Gallery images */
 #foodgallery img {
     width: 100%;
+    line-height: 1em;
 }
 
 #foodgallery {
@@ -178,6 +179,14 @@ footer {
 
 p {
     font-size: medium;
+}
+
+/* Media query for 576px and up */
+@media screen and (min-width:576px) {
+    #foodgallery {
+        column-count: 2;
+        column-gap: 0;
+    }  
 }
 
 /* Media query for 768px and up */
