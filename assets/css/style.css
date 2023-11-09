@@ -109,7 +109,7 @@ main {
 }
 
 #signup-form {
-    padding: 2rem;
+    padding: 4rem;
     background-color: rgba(60, 60, 60, 0.6);
 }
 
@@ -147,13 +147,14 @@ label {
 }
 
 .join-button {
-    border-radius: 2px;
+    border-radius: 20px;
     padding: 5px 5px;
     font-size: 70%;
     background-color: #3cb371;
     color: black;
     position: absolute;
     margin: 1.5rem 17%;
+    margin-left: 15px;
 }
 
 /* Gallery images */
@@ -187,6 +188,9 @@ footer {
 p {
     font-size: medium;
 }
+
+/* Media query for 280px and up */
+
 
 /* Media query for 576px and up */
 @media screen and (min-width:576px) {
@@ -243,7 +247,7 @@ p {
     }
 
     #signup-form {
-        padding: 8rem;
+        padding: 9.5rem;
     }
 
     #signup-form>h2 {
@@ -266,6 +270,7 @@ p {
     .join-button {
         font-size: 100%;
         margin: 1.5rem 25%;
+        margin-left: 10rem;
     }
 
     /* Footer */
