@@ -23,42 +23,35 @@
 <body>
     <!--Header-->
     <header>
-        <div>
-            <a href="index.html"><img src="assets/images/logo.png" alt="Healthy food"></a>
-        </div>
-        <input type="checkbox" id="window" name="window">
-        <label for="window" class="window-label"><i class="fa-solid fa-bars-staggered fa-flip-horizontal"
-                style="color: #3cb371;"></i></label>
+        <a href="index.html">
+            <h1 id="logo">Healthy</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars-staggered fa-flip-horizontal"
+                style="color: black;"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html" class="position">Gallery</a></li>
+                <li><a href="index.html">Healthy Home</a></li>
+                <li><a href="gallery.html" class="active">Healthy Photos</a></li>
                 <li><a href="signup.html">Sign Up</a></li>
             </ul>
         </nav>
     </header>
     <!--Main content-->
     <main>
-        <section id="gallery">
-            <div id="foodgallery">
-                <img src="assets/images/eggs.jpg" alt="eggs">
-                <img src="assets/images/avocado.jpg" alt="avocados">
-                <img src="assets/images/legumes.jpg" alt="legumes">
-                <img src="assets/images/tomatoes.jpg" alt="tomatoes">
-            </div>
-        </section>
+        <section id="foodhome">Content</section>
     </main>
     <!--Foot-->
     <footer>
         <ul id="social-link">
             <p>Follow Us...</p>
-            <li><a href="https://en-gb.facebook.com/" target=" _blank" rel="noopener"><i
+            <li><a href="https://en-gb.facebook.com/" target=" _blank" rel="noopener" aria-label="Open Facebook"><i
                         class="fa-brands fa-facebook-f fa-bounce fa-lg" style="color: #000000;"></i></a></li>
-            <li><a href="https://www.instagram.com/" target=" _blank" rel="noopener"><i
+            <li><a href="https://www.instagram.com/" target=" _blank" rel="noopener" aria-label="Open Instagram"><i
                         class="fa-brands fa-instagram fa-beat fa-lg" style="color: #000000;"></i></a></li>
-            <li><a href="https://twitter.com/" target=" _blank" rel="noopener"><i
+            <li><a href="https://twitter.com/" target=" _blank" rel="noopener" aria-label="Open Twitter"><i
                         class="fa-brands fa-x-twitter fa-fade fa-lg" style="color: #000000;"></i></a></li>
-            <li><a href="https://www.youtube.com/" target=" _blank" rel="noopener"><i
+            <li><a href="https://www.youtube.com/" target=" _blank" rel="noopener" aria-label="Open Youtube"><i
                         class="fa-brands fa-youtube fa-beat-fade fa-lg" style="color: #000000;"></i></a></li>
         </ul>
     </footer>

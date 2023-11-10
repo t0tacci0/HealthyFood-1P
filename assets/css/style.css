@@ -28,6 +28,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 1px 5px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -49,11 +52,39 @@ header a {
     border-bottom: 1px solid black;
 }
 
+/* Navigation styles with dropdown toggle */
+
+nav {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 1px 5px black;
+    display: none;
+    top: 100%;
+}
+
+/* Navigation toggle */
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 /* Main */
 
 main {
     background-color: rosybrown;
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* First picture in homepage */
@@ -159,16 +190,50 @@ p {
 @media screen and (min-width:768px) {
 
     /* Header */
- 
+
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
     /* Main */
+
+    main {
+        margin-top: 79px;
+    }
+}
+
+ 
+    
  
     /* Form */
 
 
     /* Footer */
 
-/* Media query for 1050px and up */
+/* Media query for 992px and up */
 
-@media screen and (min-width:1050px) {}
-
-    /* Header */
+@media screen and (min-width:992px) {
+    #menu a:hover {
+        border-bottom: 1px solid black;
+    }
+}
