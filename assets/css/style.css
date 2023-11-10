@@ -6,14 +6,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: black;
 }
 
 /* General styles */
 body {
     display: block;
     font-family: 'architects daughter', sans-serif;
-}
+    
 
 /* Header */
 header {
@@ -33,6 +32,7 @@ header {
     width: 100%;
     padding-top: 0;
     height: 100px;
+    padding-left: 0;
 }
 
 #menu {
@@ -60,7 +60,7 @@ header {
 }
 
 /* Window */
-#window:checked~nav {
+#window:checked~#menu li {
     display: block;
 }
 
@@ -69,12 +69,12 @@ header {
 }
 
 .window-label {
-    display: none;
     flex-direction: column;
     align-items: center;
     justify-items: center;
     cursor: pointer;
 }
+
 /* Main */
 main {
     flex: 1 0 auto;

@@ -25,25 +25,27 @@
     <header>
         <nav class="top-nav">
         <div>
-            <a href="index.html"><img src="assets/images/Organic_Vegetables-removebg-preview.png" alt="Healthy food"></a>
+            <a href="index.html"><img src="assets/images/logo.png" alt="Healthy food Logo"></a>
         </div>
-        <input type="checkbox" id="window" name="window">
-        <label for="window" class="window-label"><i class="fa-solid fa-bars-staggered fa-flip-horizontal"
-                style="color:#3cb371"></i></label>
+        <input type="checkbox" id="toggle" name="toggle">
+        <label for="toggle" class="toggle-button"><i class="fa-solid fa-bars-staggered fa-flip-horizontal"
+                style="color:black"></i></label>
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="signup.html" class="position">Sign Up</a></li>
+                <li><a href="signup.html" class="menu-
+                    position">Sign Up</a></li>
             </ul>
         </nav>
     </header>
     <!--Main content-->
     <main>
-        <section id="signup">
+        <section class="signup">
+            <div>
             <form id="signup-form" action="https://formdump.codeinstitute.net" method="post">
                 <h2><i class="fa-solid fa-seedling fa-lg" style="color: #3cb371;"></i>Register to find out how to improve your eating lifestyle!</h2>
                 <label for="first_name">First Name</label>
-                <input type="text" id="first_name" name="first_name" class="text" placeholder="Your Name!" required>
+                <input type="text" id="first_name" name="first_name" class="text" placeholder="Your Name!" required autofocus>
                 <br>
                 <label for="last_name">Last Name</label>
                 <input type="text" id="last_name" name="last_name" class="text" placeholder="Your Last Name!" required>
@@ -65,11 +67,12 @@
                         <input type="radio" id="vegan" value="vegan" name="Vegan Food">
                     </div>
                 </div>
-                <button type="submit" class="join-button">Join Our Newsletters</button>
+                <button type="submit" class="join-button" value="Tasted!">Join Our Newsletters</button>
             </form>
+                </div>
         </section>
     </main>
-    <!--Foot-->
+    <!--Footer-->
     <footer>
         <ul id="social-link">
             <p>Follow Us...</p>
