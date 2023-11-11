@@ -39,20 +39,50 @@
     </header>
     <!--Main content-->
     <main>
-        <section id="foodhome">Content</section>
+        <section id="signup">
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+            <h2><i class="fa-solid fa-heartbeat"></i> Let's get you signed up!</h2>
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" class="text-input" required>
+            <br>
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name" class="text-input" required>
+            <br>
+            <label for="email_address">Email Address</label>
+            <input type="email" name="email_address" id="email_address" class="text-input" required>
+            <br>
+            <div class="radio-buttons">
+                <div>
+                    <label for="road">Road</label>
+                    <input type="radio" name="running_preference" id="road" value="road" required checked>
+                </div>
+                <div>
+                    <label for="trail">Trail</label>
+                    <input type="radio" name="running_preference" id="trail" value="trail" required>
+                </div>
+                <div>
+                    <label for="both">Both</label>
+                    <input type="radio" name="running_preference" id="both" value="both" required>
+                </div>
+            </div>
+            <button type="submit" class="join-button">Let's Run!</button>
+            </form>
+        </section>
     </main>
     <!--Foot-->
     <footer>
         <ul id="social-link">
             <p>Follow Us...</p>
-            <li><a href="https://en-gb.facebook.com/" target=" _blank" rel="noopener" aria-label="Open Facebook"><i
+            <li><a href="https://en-gb.facebook.com/" target=" _blank" rel="noopener" aria-label="visit our facebook page (opens in a new tab)"><i
                         class="fa-brands fa-facebook-f fa-bounce fa-lg" style="color: #000000;"></i></a></li>
-            <li><a href="https://www.instagram.com/" target=" _blank" rel="noopener" aria-label="Open Instagram"><i
+            <li><a href="https://www.instagram.com/" target=" _blank" rel="noopener" aria-label="visit our instagram page (opens in a new tab)"><i
                         class="fa-brands fa-instagram fa-beat fa-lg" style="color: #000000;"></i></a></li>
-            <li><a href="https://twitter.com/" target=" _blank" rel="noopener" aria-label="Open Twitter"><i
+            <li><a href="https://twitter.com/" target=" _blank" rel="noopener" aria-label="visit our twitter page (opens in a new tab)"><i
                         class="fa-brands fa-x-twitter fa-fade fa-lg" style="color: #000000;"></i></a></li>
-            <li><a href="https://www.youtube.com/" target=" _blank" rel="noopener" aria-label="Open Youtube"><i
+            <li><a href="https://www.youtube.com/" target=" _blank" rel="noopener" aria-label="visit our youtube page (opens in a new tab)"><i
                         class="fa-brands fa-youtube fa-beat-fade fa-lg" style="color: #000000;"></i></a></li>
+            <li><a href="contactus.html" target="_blank" rel="noopener" aria-label="contact us via email (opens in a new tab)"><i
+                        class="fa-solid fa-envelope fa-shake fa-lg" style="color: #000000;"></i></a></li>
         </ul>
     </footer>
     <!--Font awesome kit-->
