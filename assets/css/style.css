@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     font-family: 'architects daughter', sans-serif;
 }
-    
+
 /* Header */
 
 header {
@@ -38,13 +38,20 @@ header a {
     color: inherit;
 }
 
+img {
+    width: 100%;
+    height: 130px;
+}
+
+
+
 #menu {
     font-size: 120%;
     letter-spacing: 6px;
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1rem;
 }
 
@@ -77,6 +84,11 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+}
+
+.button {
+    transition: background-color 0.5s ease-in 0.3s;
+
 }
 
 /* Main */
@@ -141,6 +153,7 @@ main {
 footer {
     background-color: #3cb371;
 }
+
 #social-link {
     text-align: center;
     padding: 20px 0;
@@ -156,7 +169,7 @@ footer {
 }
 
 p {
-    font-size: medium;
+    font-size: large;
 }
 
 /* Media query for 768px and up */
@@ -175,7 +188,7 @@ p {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
