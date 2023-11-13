@@ -143,6 +143,17 @@ main {
     color: #fafafa;
 }
 
+/* Gallery page */
+
+#pictures img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#pictures {
+    line-height: 0;
+}
+
 /* Footer */
 
 footer {
@@ -165,6 +176,15 @@ footer {
 
 p {
     font-size: large;
+}
+
+/* Media query for 576px and up */
+
+@media screen and (min-width:576px) {
+    #pictures {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 /* Media query for 768px and up */
@@ -225,6 +245,12 @@ p {
         background-color: #fafafa;
         color: #454b1b;
     }
+
+    /* Gallery */
+
+    #pictures {
+        column-count: 3;
+    }
 }
 
 /* Media query for 992px and up */
@@ -232,5 +258,9 @@ p {
 @media screen and (min-width:992px) {
     #menu a:hover {
         border-bottom: 1px solid black;
+    }
+
+    #pictures {
+        column-count: 3;
     }
 }
