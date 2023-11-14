@@ -38,12 +38,10 @@ header a {
     color: inherit;
 }
 
-img {
+#logoimg {
     width: 100%;
-    height: 130px;
+    height: 100px;
 }
-
-
 
 #menu {
     font-size: 120%;
@@ -91,7 +89,7 @@ nav {
 main {
     background-color: rosybrown;
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 113px;
     display: flex;
     flex-direction: column;
 }
@@ -141,6 +139,15 @@ main {
     font-size: 100%;
     background-color: #454b1b;
     color: #fafafa;
+}
+
+/* Contact Us Form */
+
+#contactus {
+    background: url(../images/contactbackground.jpg) no-repeat center center;
+    background-size: cover;
+    background-color: rgba(60, 60, 60, 0.6);
+    width: 100%;
 }
 
 /* Gallery page */
