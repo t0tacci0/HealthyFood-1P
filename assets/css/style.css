@@ -162,6 +162,22 @@ main {
     line-height: 0;
 }
 
+/* Turn Up section */
+
+.turnup {
+    background-color: #3cb371;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.turnup>a>h2 {
+    color: black;
+}
+
+.turnup>a {
+    text-decoration: none;
+}
+
 /* Footer */
 
 footer {
