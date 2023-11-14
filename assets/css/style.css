@@ -87,7 +87,7 @@ nav {
 /* Main */
 
 main {
-    background-color: #3cb371;
+    background-color: #435c4e;
     flex: 1 0 auto;
     margin-top: 113px;
     display: flex;
@@ -97,9 +97,9 @@ main {
 /* Form */
 
 #signup {
-    background-image: url(../images/Background.jpg);
+    background-image: url(../images/backgroundsignup.jpg);
     background-size: cover;
-    background-position: 75%;
+    background-position: 100%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
