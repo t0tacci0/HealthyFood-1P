@@ -87,7 +87,7 @@ nav {
 /* Main */
 
 main {
-    background-color: rosybrown;
+    background-color: #3cb371;
     flex: 1 0 auto;
     margin-top: 113px;
     display: flex;
@@ -227,7 +227,7 @@ p {
     /* Main */
 
     main {
-        margin-top: 79px;
+        margin-top: 123px;
     }
 
     /* Form */
