@@ -95,6 +95,27 @@ main {
     flex-direction: column;
 }
 
+#hero-picture {
+    height: 600px;
+    width: 100%;
+    background: url(../images/healthy.jpg)no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(13, 171, 42, 0.274);
+    font-size: 100%;
+    position: absolute;
+    bottom: 30px;
+    width: 50%;
+    min-height: 200px;
+    right: 10%;
+}
+
+#cover-text > h1 {
+    color: white;
+}
+
 /* Form */
 
 #signup {
