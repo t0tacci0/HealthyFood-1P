@@ -146,10 +146,20 @@ main {
 /* Contact Us Form */
 
 #contactus {
-    background: url(../images/contactbackground.jpg) no-repeat center center;
+    background: url(../images/contactus\ background.jpg)no-repeat center center;
     background-size: cover;
+    background-position: 100%;
     background-color: rgba(60, 60, 60, 0.6);
     width: 100%;
+    height: 30rem;
+}
+
+#comment {
+    margin-top: 1rem;
+}
+
+.contactus-message {
+    text-align: center;
 }
 
 /* Gallery page */
