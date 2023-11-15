@@ -236,10 +236,14 @@ p {
 
     #menu {
         display: flex;
+        box-shadow: 0 15px 15px black;
+        font-size: 136%;
+        padding-right: 3rem;
     }
 
     #menu>li {
-        padding-left: 1rem;
+        padding-left: 3rem;
+        padding-top: 1rem;
     }
 
     .nav-toggle-label {
