@@ -44,9 +44,13 @@ header a {
 }
 
 #menu {
-    font-size: 120%;
-    letter-spacing: 6px;
+    font-size: 150%;
+    font-weight: bold;
     list-style-type: none;
+    text-transform: uppercase;
+    text-align: center;
+    background: url(../images/navbackground.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 #menu>li {
@@ -61,11 +65,8 @@ header a {
 
 nav {
     position: absolute;
-    background-color: white;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 1px 5px black;
     display: none;
     top: 100%;
 }
