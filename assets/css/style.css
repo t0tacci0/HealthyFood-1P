@@ -119,6 +119,31 @@ main {
     color: white;
 }
 
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#effects-mental,#effects-physical,#effects-spiritual {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#effects p {
+    padding: 0 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 /* Form */
 
 #signup {
@@ -178,12 +203,18 @@ main {
     height: 30rem;
 }
 
+#message {
+    position: absolute;
+}
+
 #comment {
     margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .contactus-message {
     text-align: center;
+    padding: 0 10% 0 10%;
 }
 
 /* Gallery page */
