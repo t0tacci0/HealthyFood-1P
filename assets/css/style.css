@@ -49,7 +49,7 @@ header a {
     list-style-type: none;
     text-transform: uppercase;
     text-align: center;
-    background: url(../images/navbackground.jpg) no-repeat center center;
+    background-color: #fafafac7;
     background-size: cover;
 }
 
@@ -89,7 +89,7 @@ nav {
 
 main {
     background-color: #435c4e;
-    flex: 1 0 auto;
+    flex: 0 0 auto;
     margin-top: 113px;
     display: flex;
     flex-direction: column;
@@ -150,7 +150,7 @@ hr {
     background-image: url(../images/backgroundsignup.jpg);
     background-size: cover;
     background-position: 100%;
-    padding: 20px 10% 0 10%;
+    padding: 20px 10% 20px 10%;
     flex-grow: 1;
 }
 
@@ -190,6 +190,7 @@ hr {
     font-size: 100%;
     background-color: #3cb371;
     color: black;
+    padding: 4px;
 }
 
 /* Contact Us Form */
@@ -201,6 +202,7 @@ hr {
     background-color: rgba(60, 60, 60, 0.6);
     width: 100%;
     height: 30rem;
+    padding: 1rem;
 }
 
 #message {
@@ -215,6 +217,7 @@ hr {
 .contactus-message {
     text-align: center;
     padding: 0 10% 0 10%;
+    background-color: #24292645;
 }
 
 /* Gallery page */
@@ -338,6 +341,13 @@ p {
         color: #454b1b;
     }
 
+    /* Contact Us Form */
+
+    #contactus {
+        height: 52.3rem;
+        padding: 11rem;
+    }
+
     /* Gallery */
 
     #pictures {
@@ -352,7 +362,10 @@ p {
         border-bottom: 1px solid black;
     }
 
+    /* Gallery */
+
     #pictures {
         column-count: 3;
     }
+
 }
