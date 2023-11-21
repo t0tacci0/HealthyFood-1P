@@ -314,6 +314,7 @@ p {
 
     nav {
         display: block;
+        inset-block: -2rem;
         position: relative;
         width: fit-content;
     }
