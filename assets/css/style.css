@@ -100,7 +100,7 @@ main {
 /* Index Page */
 
 #hero-picture {
-    height: 600px;
+    height: 200px;
     width: 100%;
     background: url(../images/hero_index.jpg)no-repeat center center/cover;
     position: relative;
@@ -111,12 +111,12 @@ main {
 
 #cover-text {
     background-color: rgb(68 92 72 / 27%);
-    font-size: 90%;
+    font-size: 30%;
     position: absolute;
-    bottom: 30px;
+    bottom: 6px;
     width: 50%;
-    min-height: 200px;
-    right: 10%;
+    min-height: 44px;
+    right: 2%;
 }
 
 #cover-text > h1 {
@@ -347,21 +347,21 @@ p {
 
     /* Reasons section */
 
-    #effect-mental,
-    #eccetc-physical,
-    #effect-spiritual {
+    #effects-mental,
+    #effects-spiritual,
+    #effects-physical {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-     #effect-mental > div,
-     #eccetc-physical > div,
-     #effect-spiritual > div {
+     #effects-mental > div,
+     #effects-spiritual > div,
+     #effects-physical > div {
         width: 75%;
      }
 
-     #effect-spiritual > div {
+     #effects-physical > div {
         text-align: end;
         align-self: flex-end;
 
