@@ -90,7 +90,7 @@ nav {
 /* Main */
 
 main {
-    background-color: #435c4e;
+    background-color: #3cb371;
     flex: 0 0 auto;
     margin-top: 113px;
     display: flex;
@@ -131,7 +131,7 @@ main {
 #reasons h2 {
     margin-bottom: 20px;
     text-align: center;
-    font-size: 280%;
+    font-size: 150%;
 }
 
 #effects-mental,#effects-physical,#effects-spiritual {
