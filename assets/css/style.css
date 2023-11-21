@@ -324,10 +324,11 @@ p {
         box-shadow: 0 15px 15px black;
         font-size: 136%;
         padding-right: 3rem;
+        border-radius: 5rem;
     }
 
     #menu>li {
-        padding-left: 3rem;
+        padding-left: 2rem;
         padding-top: 1rem;
     }
 
@@ -419,6 +420,13 @@ p {
 /* Media query for 992px and up */
 
 @media screen and (min-width:992px) {
+
+    /* Header */
+
+    #menu>li {
+            padding-left: 3rem;
+    }
+
     #menu a:hover {
         border-bottom: 1px solid black;
     }
