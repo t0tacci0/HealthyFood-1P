@@ -378,15 +378,30 @@ p {
     #signup {
         background-position: center;
         position: relative;
+        padding: 40px 14rem;
+        height: 69em;
     }
 
     #signup-form {
-        left: 10%;
-        top: 150px;
+        top: 200px;
+        position: relative;
+        height: 40rem;
+    }
+
+    #signup-form>h2 {
+        margin-bottom: 40px;
+    }
+
+    .text-input {
+        margin-bottom: 40px;
     }
 
     .text-input:hover {
         border-color: #f16c6b;
+    }
+
+    .join-button {
+        margin-top: 40px;
     }
 
     .join-button:hover {
@@ -439,5 +454,71 @@ p {
     #pictures {
         column-count: 3;
     }
+
+    /* Form */
+
+    #signup {
+        padding: 256px 20rem;
+        height: 92em;
+    }
+
+}
+
+/* Media query for 1440px and up */
+
+@media screen and (min-width:1440px) {
+
+/* Form section */
+
+#signup {
+    height: 130em;
+    padding: 25rem 30rem;
+}
+
+#signup-form {
+    height: 50rem;
+}
+
+#signup-form>h2 {
+    margin-bottom: 60px;
+}
+
+.text-input {
+    margin-bottom: 60px;
+}
+
+.join-button {
+    margin-top: 60px;
+}
+
+}
+
+/* Media query for 2560px and up */
+
+@media screen and (min-width:2560px) {
+
+/* Form section */
+
+#signup {
+    height: 230px;
+    padding: 116rem 50rem;
+}
+
+#signup-form {
+    height: 70rem;
+    top: -20rem;
+}
+
+#signup-form>h2 {
+    margin-bottom: 100px;
+}
+
+.text-input {
+    margin-bottom: 100px;
+}
+
+.join-button {
+    margin-top: 100px;
+}
 
 }
