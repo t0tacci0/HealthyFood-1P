@@ -217,11 +217,10 @@ hr {
 #contactus {
     background: url(../images/contactus_background.jpg)no-repeat center center;
     background-size: cover;
-    background-position: 100%;
     background-color: rgba(60, 60, 60, 0.6);
     width: 100%;
     height: 30rem;
-    padding: 1rem;
+    padding: 1rem 10%;
 }
 
 #message {
@@ -229,7 +228,6 @@ hr {
 }
 
 #comment {
-    margin-top: 1rem;
     margin-top: 2rem;
 }
 
@@ -412,8 +410,14 @@ p {
     /* Contact Us Form */
 
     #contactus {
-        height: 52.3rem;
-        padding: 11rem;
+        height: 72rem;
+        padding: 15rem;
+    }
+
+    #comment {
+        margin-top: 4rem;
+        width: 15em;
+        height: 8rem;
     }
 
     /* Gallery Page */
@@ -462,6 +466,20 @@ p {
         height: 92em;
     }
 
+    /* Contact Us Form */
+
+    #contactus {
+        padding: 20rem;
+    }
+
+    #comment {
+        width: 20em;
+    }
+
+    #message {
+        margin-left: 2rem;
+    }
+
 }
 
 /* Media query for 1440px and up */
@@ -489,6 +507,22 @@ p {
 
 .join-button {
     margin-top: 60px;
+}
+
+/* Contact Us Form */
+
+#contactus {
+    padding: 30rem;
+    height: 120rem;
+}
+
+#comment {
+    width: 26em;
+    height: 10rem;
+}
+
+#message {
+    margin-left: 6rem;
 }
 
 }
@@ -519,6 +553,26 @@ p {
 
 .join-button {
     margin-top: 100px;
+}
+
+/* Contact Us Form */
+
+#contactus {
+    height: 200rem;
+    padding: 45rem;
+}
+
+.contactus-message {
+    padding: 10em 10% 10em 10%;
+}
+
+#comment {
+    width: 45em;
+    height: 20rem;
+}
+
+#message {
+    margin-left: 12rem;
 }
 
 }
