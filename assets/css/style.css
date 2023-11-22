@@ -30,7 +30,6 @@ header {
     box-shadow: 0 1px 5px black;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
 }
 
 header a {
@@ -85,6 +84,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    padding-right: 2rem;
 }
 
 /* Main */
@@ -92,7 +92,7 @@ nav {
 main {
     background-color: #3cb371;
     flex: 0 0 auto;
-    margin-top: 113px;
+    margin-top: 107px;
     display: flex;
     flex-direction: column;
 }
@@ -315,7 +315,7 @@ p {
 
     nav {
         display: block;
-        inset-block: -2rem;
+        inset-block: 2rem;
         position: relative;
         width: fit-content;
     }
@@ -563,7 +563,7 @@ p {
 }
 
 .contactus-message {
-    padding: 10em 10% 10em 10%;
+    padding: 16em 10% 16em 10%;
 }
 
 #comment {
