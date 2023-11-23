@@ -353,9 +353,9 @@ p {
         width: 100%;
     }
 
-     #effects-mental > div,
-     #effects-spiritual > div,
-     #effects-physical > div {
+     #effects-mental>div,
+     #effects-spiritual>div,
+     #effects-physical>div {
         width: 75%;
      }
 
@@ -457,6 +457,13 @@ p {
 
     #pictures {
         column-count: 3;
+    }
+
+    /* Reasons section */
+
+    #effects {
+        display: flex;
+        flex-direction: row;
     }
 
     /* Form */
