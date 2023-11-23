@@ -19,6 +19,10 @@ body {
     font-family: 'architects daughter', sans-serif;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 
 header {
@@ -163,6 +167,19 @@ hr {
     justify-content: center;
 }
 
+#times {
+    background: url(../images/background_meetup.jpg)no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+    height: 26rem;
+}
+
+#times div {
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(210, 199, 199, 0.591)
+}
+
 /* Form */
 
 #signup {
@@ -288,7 +305,7 @@ footer {
     padding-top: 1rem;
 }
 
-p {
+#social-p {
     font-size: large;
     position: absolute;
     margin: -1.5rem;
@@ -432,7 +449,7 @@ p {
         padding: 9px 0;
     }
 
-    p {
+    #social-p {
         font-size: large;
         position: relative;
         margin: inherit;
