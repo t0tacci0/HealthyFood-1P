@@ -391,6 +391,14 @@ footer {
         align-self: flex-end;
 
      }
+
+     #reason h2 {
+        font-size: 120%;
+     }
+
+     h5 {
+        font-size: 130%;
+     }
     
     /* Main */
 
@@ -503,6 +511,14 @@ footer {
         flex-direction: row;
     }
 
+    #reasons h2 {
+        font-size: 190%;
+    }
+
+    h5 {
+        font-size: 150%;
+    }
+
     /* Form */
 
     #signup {
@@ -536,8 +552,14 @@ footer {
     height: 810px;
 }
 
+/* Reason section */
+
 #cover-text {
-    font-size: 160%;
+    font-size: 140%;
+}
+
+#reason h2 {
+    font-size: 220%;
 }
 
 /* Form section */
@@ -591,8 +613,18 @@ footer {
     height: 90rem;
 }
 
+/* Reason section */
+
+#reasons h2 {
+    font-size: 250%;
+}
+
 #cover-text {
     font-size: 290%;
+}
+
+h5 {
+    font-size: 230%;
 }
 
 /* Form section */
