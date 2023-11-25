@@ -119,7 +119,6 @@ main {
     position: absolute;
     bottom: 6px;
     width: 50%;
-    min-height: 44px;
     right: 2%;
 }
 
@@ -360,6 +359,17 @@ footer {
         margin: 0 0.5rem;
     }
 
+    /* Hero section */
+
+    #hero-picture {
+        height: 460px;
+    }
+
+    #cover-text {
+        min-height: 28px;
+        font-size: 60%;
+    }
+
     /* Reasons section */
 
     #effects-mental,
@@ -476,6 +486,16 @@ footer {
         column-count: 3;
     }
 
+    /* Hero section */
+
+    #hero-picture {
+        height: 620px;
+    }
+
+    #cover-text {
+        font-size: 100%;
+    }
+
     /* Reasons section */
 
     #effects {
@@ -509,6 +529,16 @@ footer {
 /* Media query for 1440px and up */
 
 @media screen and (min-width:1440px) {
+
+/* Hero section */
+
+#hero-picture {
+    height: 810px;
+}
+
+#cover-text {
+    font-size: 160%;
+}
 
 /* Form section */
 
@@ -554,6 +584,16 @@ footer {
 /* Media query for 2560px and up */
 
 @media screen and (min-width:2560px) {
+
+/* Hero section */
+
+#hero-picture {
+    height: 90rem;
+}
+
+#cover-text {
+    font-size: 290%;
+}
 
 /* Form section */
 
