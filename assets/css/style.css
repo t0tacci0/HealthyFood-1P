@@ -506,17 +506,22 @@ footer {
 
     /* Reasons section */
 
-    #effects {
-        display: flex;
-        flex-direction: row;
-    }
-
     #reasons h2 {
         font-size: 190%;
     }
 
     h5 {
         font-size: 150%;
+    }
+
+    #effects {
+        font-size: 150%;
+    }
+
+    #effects > #effects-mental, 
+    #effects-physical, 
+    #effects-spiritual {
+        line-height: normal;
     }
 
     /* Form */
@@ -625,6 +630,10 @@ footer {
 
 h5 {
     font-size: 230%;
+}
+
+#effects {
+    font-size: 250%;
 }
 
 /* Form section */
