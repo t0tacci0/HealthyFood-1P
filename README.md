@@ -105,3 +105,10 @@ There is a section for registering, a section for customer service and one for a
   - Information about consequences eating healthy.
   
 ![Information Health](assets/images/information-index.png)
+
+- Footer
+  - Links to the social media for Healthy Food will open in a new tab to allow easy navigation for the user.
+  - It is valuable to the user as it gives them an easy contact option via social media.
+  - Contact Us page Form with customer service active all day.
+
+![Footer](assets/images/footer.png)
