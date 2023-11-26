@@ -112,3 +112,31 @@ There is a section for registering, a section for customer service and one for a
   - Contact Us page Form with customer service active all day.
 
 ![Footer](assets/images/footer.png)
+
+## Credits
+
+### Code
+
+- Understanding the concept of flexbox was learned through [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- The README template was helpfully provided by [Code Institute (template)](https://github.com/Code-Institute-Solutions/SampleREADME)
+
+### Content
+
+- All content was written by the developer.
+- [Color contrast checker](https://coolors.co/contrast-checker/112a46-acc8e5) Used to check colour for background.
+
+### Media
+
+- [Pexels](https://www.pexels.com/) Free stock photos, royalty free images.
+- [Pixabay](https://pixabay.com/) Free stock photos, royalty free images.
+- [Pixlr](https://pixlr.com/) Resizing images.
+- [Canva](https://www.canva.com/en/) Create Healthy Food logo.
+- [Fontawesome](https://fontawesome.com/) Create fonts.
+- [Am I Responsive](https://ui.dev/amiresponsive) Check website responsive.
+
+---
+
+## Acknowledgements
+
+- My mentor Mitko Bachvarov provided great helpful feedback and a link to the Flexbox guide.
+- Slack community for encouragement and information.
