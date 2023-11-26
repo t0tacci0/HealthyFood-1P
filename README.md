@@ -70,3 +70,19 @@ There is a section for registering, a section for customer service and one for a
   - Review the gallery for any new photos.
 
 - - -
+
+## Features
+
+- This website is targeting people who want start business and selling product.
+- They can do that by navigating to the sign-up page and filling out a form.
+- Responsive on all device sizes.
+
+### Existing Features
+
+- Navigation bar
+  - It is featured and fixed on all three pages and the contact us form.
+  - Includes links to the logo, home page, gallery, and sign-up page.
+  - It is identical in design across the pages.
+  - Allows easy navigation from page to page without having to revert back to the previous page via the "back" button.
+
+![Navigation](assets/images/nav-bar.png)
