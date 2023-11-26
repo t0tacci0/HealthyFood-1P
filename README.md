@@ -47,3 +47,26 @@ Finally on the home page there is a small description on why to buy from Healthy
 ### [Acknowledgements](#acknowledgements-1)
 
 ---
+
+## User Experience (UX)
+
+The site is aimed at people who want to sell Naural/Organic ingredients and product.
+
+There is a section for registering, a section for customer service and one for appointments with managers to discuss various purchasing options.
+
+### User Stories
+
+- First-time visitor goals
+  - Understand the main purpose of the site and learn more about the Healthy Food company.
+  - Easily navigate throughout the site.
+  - Find the Sign Up form and fill it out.
+- Returning visitor goals
+  - Find out information about the company.
+  - Locate contact links information.
+  - Review the site's extensive gallery.
+
+- Frequent user goals
+  - Check if there are any new personal offers to apply for in the sign-up form.
+  - Review the gallery for any new photos.
+
+- - -
