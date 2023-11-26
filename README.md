@@ -73,7 +73,7 @@ There is a section for registering, a section for customer service and one for a
 
 ## Features
 
-- This website is targeting people who want start business and selling product.
+- This website is targeting people who want start business and selling products.
 - They can do that by navigating to the sign-up page and filling out a form.
 - Responsive on all device sizes.
 
@@ -86,3 +86,22 @@ There is a section for registering, a section for customer service and one for a
   - Allows easy navigation from page to page without having to revert back to the previous page via the "back" button.
 
 ![Navigation](assets/images/nav-bar.png)
+
+- Main heading
+  - It is composed of a green background.
+  
+- Section one.
+  - This section contains a short heading followed by image.
+  - It gives a presentation with a checkers to attract perople.
+  
+![Checkers](assets/images/checkers-index.png)
+
+- Section two, 'Why You Should Consider Purchasing Our Products??'
+  - Information about risks of eating in bad way.
+
+![Why You Should Consider Purchasing Our Products???](assets/images/girl-index.png)
+
+- Section three.
+  - Information about consequences eating healthy.
+  
+![Information Health](assets/images/information-index.png)
