@@ -171,14 +171,13 @@ hr {
 #times {
     background: url(../images/background_meetup.jpg)no-repeat center/cover;
     display: flex;
-    flex-wrap: wrap;
     height: 26rem;
 }
 
 #times div {
     padding: 13px;
     text-align: center;
-    background-color: rgb(210 199 199 / 38%);
+    background-color: rgb(34 33 33 / 42%);
     display: grid;
 }
 
@@ -401,6 +400,18 @@ footer {
 
      h5 {
         font-size: 130%;
+     }
+
+     #times {
+        height: 22rem;
+        font-size: 110%;
+        color: white;
+     }
+
+     #times div {
+        padding: 17px;
+        padding-right: 3rem;
+        font-family: fantasy;
      }
     
     /* Main */
