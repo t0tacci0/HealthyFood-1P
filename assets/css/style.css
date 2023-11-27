@@ -542,6 +542,15 @@ footer {
         line-height: normal;
     }
 
+    #times {
+        height: 30rem;
+        font-size: 150%;
+    }
+
+    #times div {
+        line-height: 55px;
+    }
+
     /* Form */
 
     #signup {
@@ -583,6 +592,15 @@ footer {
 
 #reason h2 {
     font-size: 220%;
+}
+
+#times {
+    height: 40rem;
+    font-size: 200%;
+}
+
+#times div {
+    line-height: 70px;
 }
 
 /* Form section */
@@ -652,6 +670,15 @@ h5 {
 
 #effects {
     font-size: 250%;
+}
+
+#times {
+    height: 65rem;
+    font-size: 300%;
+}
+
+#times div {
+    line-height: 130px;
 }
 
 /* Form section */
