@@ -126,6 +126,8 @@ main {
     color: white;
 }
 
+/* Reasons section */
+
 #reasons {
     width: 90%;
     margin: 20px auto;
@@ -174,9 +176,10 @@ hr {
 }
 
 #times div {
-    padding: 15px;
+    padding: 13px;
     text-align: center;
-    background-color: rgba(210, 199, 199, 0.591)
+    background-color: rgb(210 199 199 / 38%);
+    display: grid;
 }
 
 /* Form */
