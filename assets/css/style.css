@@ -114,8 +114,8 @@ main {
 }
 
 #cover-text {
-    background-color: rgb(68 92 72 / 27%);
-    font-size: 30%;
+    background-color: rgb(68 92 72 / 52%);
+    font-size: 47%;
     position: absolute;
     bottom: 6px;
     width: 50%;
@@ -131,6 +131,7 @@ main {
 #reasons {
     width: 90%;
     margin: 20px auto;
+    font-size: 120%;
 }
 
 #reasons h2 {
@@ -140,7 +141,7 @@ main {
 }
 
 #effects-mental,#effects-physical,#effects-spiritual {
-    line-height: 20px;
+    line-height: 29px;
     margin-bottom: 20px;
 }
 
@@ -151,6 +152,10 @@ main {
 hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
+}
+
+h5 {
+    font-size: 120%;
 }
 
 #circle-cover-bg {
@@ -172,6 +177,7 @@ hr {
     background: url(../images/background_meetup.jpg)no-repeat center/cover;
     height: 32rem;
     color: white;
+    font-size: larger;
 }
 
 #times div {
@@ -179,7 +185,7 @@ hr {
     text-align: center;
     background-color: rgb(34 33 33 / 42%);
     font-family: fantasy;
-    line-height: 1rem;
+    line-height: 1.5rem;
 }
 
 /* Form */
@@ -370,7 +376,7 @@ footer {
 
     #cover-text {
         min-height: 28px;
-        font-size: 60%;
+        font-size: 100%;
     }
 
     /* Reasons section */
@@ -395,8 +401,12 @@ footer {
 
      }
 
-     #reason h2 {
-        font-size: 120%;
+     #reasons h2 {
+        font-size: 140%;
+     }
+
+     #reasons {
+        font-size: 140%;
      }
 
      h5 {
@@ -533,7 +543,7 @@ footer {
     }
 
     #effects {
-        font-size: 150%;
+        font-size: 140%;
     }
 
     #effects > #effects-mental, 
@@ -544,7 +554,7 @@ footer {
 
     #times {
         height: 30rem;
-        font-size: 150%;
+        font-size: 140%;
     }
 
     #times div {
