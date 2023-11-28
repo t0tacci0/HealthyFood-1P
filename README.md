@@ -6,7 +6,7 @@ On the Healthy Food website there is a special section to register and keep up t
 A Gallery section has been added to show customers the quality of the products, sparking interest.
 Finally on the home page there is a small description on why to buy from Healthy Food with a meeting section to discuss any purchases/contracts/sponsors/collaborations.
 
-![Am I Responsive](assets/images/am_i_responsive.png)
+![Am I Responsive](assets/images/readme_screenshots/am_i_responsive.png)
 
 [View Healthy Food project here](https://t0tacci0.github.io/HealthyFood-1P/)
 
@@ -85,7 +85,7 @@ There is a section for registering, a section for customer service and one for a
   - It is identical in design across the pages.
   - Allows easy navigation from page to page without having to revert back to the previous page via the "back" button.
 
-![Navigation](assets/images/nav-bar.png)
+![Navigation](assets/images/readme_screenshots/nav_bar.png)
 
 - Main heading
   - It is composed of a green background.
@@ -94,24 +94,24 @@ There is a section for registering, a section for customer service and one for a
   - This section contains a short heading followed by image.
   - It gives a presentation with a checkers to attract perople.
   
-![Checkers](assets/images/checkers-index.png)
+![Checkers](assets/images/readme_screenshots/checkers_index.png)
 
 - Section two, 'Why You Should Consider Purchasing Our Products??'
   - Information about risks of eating in bad way.
 
-![Why You Should Consider Purchasing Our Products???](assets/images/girl-index.png)
+![Why You Should Consider Purchasing Our Products???](assets/images/readme_screenshots/girl_index.png)
 
 - Section three.
   - Information about consequences eating healthy.
   
-![Information Health](assets/images/information-index.png)
+![Information Health](assets/images/readme_screenshots/information_index.png)
 
 - Footer
   - Links to the social media for Healthy Food will open in a new tab to allow easy navigation for the user.
   - It is valuable to the user as it gives them an easy contact option via social media.
   - Contact Us page Form with customer service active all day.
 
-![Footer](assets/images/footer.png)
+![Footer](assets/images/readme_screenshots/footer.png)
 
 ## Credits
 
