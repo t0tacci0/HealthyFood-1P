@@ -476,8 +476,8 @@ footer {
 
     #contactus {
         height: 72rem;
-        padding: 15rem;
-        padding-top: 8rem;
+        padding: 13rem;
+        padding-top: 5rem;
     }
 
     #comment {
@@ -574,8 +574,8 @@ footer {
     /* Contact Us Form */
 
     #contactus {
-        padding: 20rem;
-        padding-top: 11rem;
+        padding: 17rem;
+        padding-top: 4rem;
     }
 
     #comment {
@@ -643,9 +643,9 @@ footer {
 /* Contact Us Form */
 
 #contactus {
-    padding: 30rem;
+    padding: 25rem;
     height: 120rem;
-    padding-top: 13rem;
+    padding-top: 4rem;
 }
 
 #comment {
@@ -725,7 +725,7 @@ h5 {
 #contactus {
     height: 200rem;
     padding: 45rem;
-    padding-top: 14rem;
+    padding-top: 5rem;
 }
 
 .contactus-message {
