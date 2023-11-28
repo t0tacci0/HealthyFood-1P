@@ -246,7 +246,7 @@ h5 {
     background-size: cover;
     background-color: rgba(60, 60, 60, 0.6);
     width: 100%;
-    height: 30rem;
+    height: 46rem;
     padding: 1rem 10%;
 }
 
@@ -477,6 +477,7 @@ footer {
     #contactus {
         height: 72rem;
         padding: 15rem;
+        padding-top: 8rem;
     }
 
     #comment {
@@ -574,6 +575,7 @@ footer {
 
     #contactus {
         padding: 20rem;
+        padding-top: 11rem;
     }
 
     #comment {
@@ -643,6 +645,7 @@ footer {
 #contactus {
     padding: 30rem;
     height: 120rem;
+    padding-top: 13rem;
 }
 
 #comment {
@@ -722,6 +725,7 @@ h5 {
 #contactus {
     height: 200rem;
     padding: 45rem;
+    padding-top: 14rem;
 }
 
 .contactus-message {
