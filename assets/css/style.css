@@ -197,6 +197,7 @@ h5 {
     background-position: 100%;
     padding: 40px 10% 40px 10%;
     flex-grow: 1;
+    height: 46rem;
 }
 
 #signup-form {
@@ -441,7 +442,7 @@ footer {
         background-position: center;
         position: relative;
         padding: 40px 14rem;
-        height: 69em;
+        height: 74em;
     }
 
     #signup-form {
@@ -565,7 +566,7 @@ footer {
     /* Form */
 
     #signup {
-        padding: 256px 20rem;
+        padding: 100px 17rem;
         height: 92em;
     }
 
@@ -618,7 +619,7 @@ footer {
 
 #signup {
     height: 130em;
-    padding: 25rem 30rem;
+    padding: 13rem 23rem;
 }
 
 #signup-form {
@@ -701,7 +702,7 @@ h5 {
 
 #signup-form {
     height: 70rem;
-    top: -20rem;
+    top: -58rem;
 }
 
 #signup-form>h2 {
