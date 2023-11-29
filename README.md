@@ -117,7 +117,7 @@ There is a section for registering, a section for customer service and one for a
     * The gallery will provide users with supporting images to see all kind of products.
     * This section is valuable to the user as they will see a helpful gallery of product that they can request.
 
-![Gallery](assets/images/readme_screeshots/gallery.png)
+![Gallery](assets/images/readme_screenshots/gallery.png)
 
 * The Sign Up page
     * This page will allow users to choose three types of newsletter and sign up for it.
@@ -142,7 +142,7 @@ There is a section for registering, a section for customer service and one for a
 ## Design
 
  * Colour Scheme
-    * Primary colors used on the website: ![Color Scheme]()
+    * Primary colors used on the website: ![Color Scheme](assets/images/readme_screenshots/colors.png)
 
  * Typography
     * Architects daughter font is main font used throughout the site with sans-serif as its fallback font in case Kanit doesn't import for some reason.
