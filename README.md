@@ -197,7 +197,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 ![Sign Up page validation result](assets/images/readme_screenshots/signup_validation.png)
 </details>
 <details>
-<summary>contactus.html
+<summary>contact_us.html
 </summary>
 
 ![Contact Us page validation result](assets/images/readme_screenshots/contact_us_validation.png)
@@ -215,6 +215,62 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 * The website was viewed on a desktop computer, laptop, Samsung Galaxy Fold, iPad mini, iPhone 12 pro.
 * A large amount of testing was done to ensure links between pages are working correctly on all pages.
 * Dev Tools was used to test how the site looks on various screen sizes.
+
+### Lighthouse Report
+
+#### Mobile analysis
+<details>
+<summary>Home Page
+</summary>
+
+![Home Page lighthouse report]()
+</details>
+<details>
+<summary>Gallery
+</summary>
+
+![Gallery lighthouse report]()
+</details>
+<details>
+<summary>Sign Up
+</summary>
+
+![Sign Up Page lighthouse report]()
+</details>
+<details>
+<summary>Contact Us
+</summary>
+
+![Contact Us Page lighthouse report]()
+</details>
+
+#### Desktop analysis
+<details>
+<summary>Home Page
+</summary>
+
+![Home Page lighthouse report]()
+</details>
+<details>
+<summary>Gallery
+</summary>
+
+![Gallery lighthouse report]()
+</details>
+<details>
+<summary>Sign Up
+</summary>
+
+![Sign Up Page lighthouse report]()
+</details>
+<details>
+<summary>Contact Us
+</summary>
+
+![Contact Us Page lighthouse report]()
+</details>
+
+---
 
 
 ## Deployment and local development
