@@ -114,10 +114,10 @@ There is a section for registering, a section for customer service and one for a
 ![Footer](assets/images/readme_screenshots/footer.png)
 
 * Gallery 
-    * The gallery will provide the user with supporting images to see all kind of products.
+    * The gallery will provide users with supporting images to see all kind of products.
     * This section is valuable to the user as they will see a helpful gallery of product that they can request.
 
-![Gallery]()
+![Gallery](assets/images/readme_screeshots/gallery.png)
 
 * The Sign Up page
     * This page will allow users to choose three types of newsletter and sign up for it.
@@ -130,6 +130,31 @@ There is a section for registering, a section for customer service and one for a
     * There is a huge textarea to explain all problems of users.
 
 ![Contact Us](assets/images/readme_screenshots/contact_us.png)
+
+---
+
+## Features Left to Implement
+
+* Meeting section will be available soon.
+* Updated gallery with additional images.
+* In the future there will be more options for form section.
+
+## Design
+
+ * Colour Scheme
+    * Primary colors used on the website: ![Color Scheme]()
+
+ * Typography
+    * Architects daughter font is main font used throughout the site with sans-serif as its fallback font in case Kanit doesn't import for some reason.
+
+ * Wireframes
+    * Pen and paper in a notebook.
+---
+
+## Technologies Used
+
+ * [HTML5](https://en.wikipedia.org/wiki/HTML5)
+ * [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ---
 
