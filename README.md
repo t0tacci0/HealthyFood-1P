@@ -223,25 +223,25 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <summary>Home Page
 </summary>
 
-![Home Page lighthouse report]()
+![Home Page lighthouse report](assets/images/readme_screenshots/lighthouse_index_mobile.png)
 </details>
 <details>
 <summary>Gallery
 </summary>
 
-![Gallery lighthouse report]()
+![Gallery lighthouse report](assets/images/readme_screenshots/lighthouse_gallery_mobile.png)
 </details>
 <details>
 <summary>Sign Up
 </summary>
 
-![Sign Up Page lighthouse report]()
+![Sign Up Page lighthouse report](assets/images/readme_screenshots/lighthouse_signup_mobile.png)
 </details>
 <details>
 <summary>Contact Us
 </summary>
 
-![Contact Us Page lighthouse report]()
+![Contact Us Page lighthouse report](assets/images/readme_screenshots/lighthouse_contactus_mobile.png)
 </details>
 
 #### Desktop analysis
@@ -249,25 +249,25 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <summary>Home Page
 </summary>
 
-![Home Page lighthouse report]()
+![Home Page lighthouse report](assets/images/readme_screenshots/lighthouse_index_desktop.png)
 </details>
 <details>
 <summary>Gallery
 </summary>
 
-![Gallery lighthouse report]()
+![Gallery lighthouse report](assets/images/readme_screenshots/lighthouse_gallery_desktop.png)
 </details>
 <details>
 <summary>Sign Up
 </summary>
 
-![Sign Up Page lighthouse report]()
+![Sign Up Page lighthouse report](assets/images/readme_screenshots/lighthouse_signup_desktop.png)
 </details>
 <details>
 <summary>Contact Us
 </summary>
 
-![Contact Us Page lighthouse report]()
+![Contact Us Page lighthouse report](assets/images/readme_screenshots/lighthouse_contactus_desktop.png)
 </details>
 
 ---
