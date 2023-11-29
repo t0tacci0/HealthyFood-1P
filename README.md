@@ -176,6 +176,45 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
  * [W3C Markup Validtor](https://validator.w3.org/)
  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
+### Validation results
+
+<details>
+<summary>index.html
+</summary>
+
+![Home Page validation result]()
+</details>
+<details>
+<summary>gallery.html
+</summary>
+
+![Gallery validation result]()
+</details>
+<details>
+<summary>sign-up.html
+</summary>
+
+![Sign Up page validation result]()
+</details>
+<details>
+<summary>contactus.html
+</summary>
+
+![Application Received validation result]()
+</details>
+<details>
+<summary>style.css
+</summary>
+
+![CSS validation result]()
+</details>
+
+### Manual Testing
+
+* The website was tested on Google Chrome, Microsoft Edge, and Safari.
+* The website was viewed on a desktop computer, laptop, Samsung Galaxy Fold, iPad mini, iPhone 12 pro.
+* A large amount of testing was done to ensure links between pages are working correctly on all pages.
+* Dev Tools was used to test how the site looks on various screen sizes.
 
 
 ## Deployment and local development
