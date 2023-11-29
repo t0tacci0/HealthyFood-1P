@@ -158,6 +158,25 @@ There is a section for registering, a section for customer service and one for a
 
 ---
 
+## Frameworks, Libraries & Programs Used
+ * [Codeanywhere](https://codeanywhere.com/platform)
+    * Program used for coding
+ * [Github](https://github.com/)
+    * Deployment of the website and storing the files online.
+ * [Google Fonts](https://fonts.google.com/)
+    * Import main font the website.
+* [Am I Responsive](https://ui.dev/amiresponsive)
+    * Mockup picture for the README file.
+---
+
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no errors.
+
+ * [W3C Markup Validtor](https://validator.w3.org/)
+ * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+
 
 ## Deployment and local development
 
