@@ -123,13 +123,13 @@ There is a section for registering, a section for customer service and one for a
     * This page will allow users to choose three types of newsletter and sign up for it.
     * In the future there will be more types and option to choose.
 
-![Sign Up Form]()
+![Sign Up Form](assets/images/readme_screenshots/sign_up.png)
 
 * The Contact Us page
     * This page allow users to contact customer service active 24hours or in some cases they will get back to users asap.
     * There is a huge textarea to explain all problems of users.
 
-![Contact Us]()
+![Contact Us](assets/images/readme_screenshots/contact_us.png)
 
 ---
 
