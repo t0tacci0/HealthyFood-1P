@@ -113,6 +113,13 @@ There is a section for registering, a section for customer service and one for a
 
 ![Footer](assets/images/readme_screenshots/footer.png)
 
+* Gallery 
+    * The gallery will provide the user with supporting images to see all kind of products.
+    * This section is valuable to the user as they will see a helpful gallery of product that they can request.
+
+![Gallery](assets/images/readme_screenshots/gallery.png)
+
+
 ## Deployment and local development
 
 ### GitHub Pages
